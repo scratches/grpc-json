@@ -31,7 +31,7 @@ import io.grpc.protobuf.ProtoMethodDescriptorSupplier;
 import tools.jackson.databind.ObjectMapper;
 import tools.jackson.databind.json.JsonMapper;
 
-@SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT, properties = { "spring.grpc.server.enabled=false" })
+@SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
 @DirtiesContext
 @AutoConfigureWebClient
 public class GrpcServerApplicationTests {
